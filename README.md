@@ -1,4 +1,4 @@
-This is a Create React App based repo that comes with UI Fabric pre-installed!
+This is a Blog App based on React and Microsoft Office [UI Fabric](https://developer.microsoft.com/en-us/fabric#/get-started)
 
 ## Available Scripts
 

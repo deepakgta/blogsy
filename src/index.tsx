@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App';
+import { BlogList } from './components/BlogList/BlogList';
 import { FluentCustomizations } from '@uifabric/fluent-theme';
 import { Customizer, mergeStyles } from 'office-ui-fabric-react';
 import * as serviceWorker from './serviceWorker';
@@ -18,7 +18,7 @@ mergeStyles({
 
 ReactDOM.render(
   <Customizer {...FluentCustomizations}>
-    <App />
+    <BlogList />
   </Customizer>,
   document.getElementById('root')
 );
